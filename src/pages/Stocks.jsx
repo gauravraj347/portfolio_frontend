@@ -214,7 +214,7 @@ const Stocks = () => {
             <PortfolioMetrics stocks={stocks} totalPortfolioValue={totalPortfolioValue} topPerformer={topPerformer} />
             
             <div className="bg-white rounded-lg shadow-lg p-1 mb-4">
-                <h2 className="text-x font-bold mb-4">Add New Stock</h2>
+                <h2 className="text-xl font-bold ml-4 mb-4">Add New Stock</h2>
                 <div className="overflow-x-auto">
                     <table className="min-w-full table-auto border-collapse border border-gray-300">
                         <tbody>
