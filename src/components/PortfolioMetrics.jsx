@@ -31,7 +31,7 @@ const PortfolioMetrics = ({ stocks }) => {
 
     return (
         <div className="bg-white rounded-lg shadow-lg p-3 mb-4">
-            <h2 className="text-xl font-bold mb-4">Portfolio Metrics</h2>
+            <h2 className="text-xl font-bold mb-4 ml-2">Portfolio Metrics</h2>
             <div className="flex space-x-3">
                 <div
                     className={`p-4 rounded-lg flex-1 ${totalPortfolioValue < totalInvestment ? 'bg-red-300' : 'bg-green-300'}`}
